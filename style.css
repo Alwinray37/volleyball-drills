@@ -1,0 +1,144 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(40, 40, 40);
+    color: white;
+}
+
+.main-header {
+    background-color: rgb(40, 40, 40);
+    padding-bottom: 10px;
+}
+
+.title {
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    font-size: 4em;
+    font-weight: normal;
+    color: whitesmoke;
+}
+main{
+    /* outline: red 1px solid; */
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+    gap: 10px;
+    padding: 10px;
+}
+
+#drill-container {
+    /* background-color: lightgray; */
+    /* box-shadow: 0px 0px 4px 1px lightgray; */
+    border-radius: 10px;
+    min-height: 600px;
+    flex-grow: 2;
+    /* padding: 10px; */
+}
+#drill-container nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    /* background-color: lightyellow; */
+}
+nav button{
+    width: 150px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.75);
+    color: rgb(50, 50, 50);
+    font-size: 16px;
+}
+.selected {
+    box-shadow: 0 0 4px 0 gray;
+}
+nav button:hover{
+    box-shadow: 0 0 4px 0 gray;
+}
+#card-container{
+    /* outline: 1px dotted red; */
+    box-shadow: 0 0 4px 0 gray;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+#practice-container{
+    background-color: rgb(0, 94, 125);
+    width: 600px;
+    min-height: 600px;
+    border-radius: 10px;
+    /* position: fixed; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    flex-grow: 1;
+}
+h3{
+    margin: 0;
+}
+h4{
+    /* background-color: pink; */
+    padding: 0 0;
+    margin: 0;
+}
+#practice-container > div{
+    padding: 0 0 10px 0;
+    border-bottom: 1px solid;
+}
+#practice-container button{
+    background-color: rgba(218, 0, 0, 0.838);
+    margin: 10px 0;
+}
+.drill-card{
+    /* background-color: lightpink; */
+    box-shadow: 0 0 4px 0px gray;
+    width: 300px;
+    min-height: 350px;
+    border-radius: 10px;
+    overflow: auto;
+}
+.drill-card .media-container{
+    background-color: antiquewhite;
+    width: 100%;
+    height: 150px;
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+}
+.drill-card .media-container img{
+    width: 100%;
+}
+.drill-card .card-contents{
+    margin: 0 10px;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, .3);
+    padding: 10px;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(23, 119, 23);
+    border: none;
+    padding:10px;
+    height: 30px;
+    width: 50px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+::-webkit-scrollbar{
+    border-radius: 10px;
+    background-color: rgba(223, 223, 223, 0.531);
+}
