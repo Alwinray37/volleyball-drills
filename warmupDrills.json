@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Butterfly",
+        "description": "PLayers work on throwing over the net from one side, receiver passes to target in the setter position, target then goes to throw from their side on the net to the other side. The movement of the players follows the ball; tosser becomes passer, passer becomes target, target becomes tosser.",
+        "image": "https://thrivevolleyball.com/wp-content/uploads/2019/05/butterfly-drill-cover.jpg"
+    },
+    {
+        "name": "Shuttle Pass/Set",
+        "description": "Two groups of players in one line facing each other from sideline to sideline. Players pass/set the ball to the other side and moving to the other line as well.",
+        "image": "https://thrivevolleyball.com/wp-content/uploads/2019/05/shuttle-passing-cover.jpg"
+    },
+    {
+        "name": "Team Pepper",
+        "description": "Two hitters on the wings, setter in the middle, defenders all back row. Setter alternates setting outside and rightside, hitters hit BACK into the same side of the court (not over the net), defenders pass back to setter.",
+        "image": ""
+    },
+    {
+        "name": "Dot Drill",
+        "description": "PLayers start in center of the court. Coach tosses ball over the net; short, sideline, and deep. Player works to pass each and go back to the center after each pass.",
+        "image": "https://thrivevolleyball.com/wp-content/uploads/2018/04/dot-drill-1-400x250.jpg"
+    },
+    {
+        "name": "Volleyball Tennis",
+        "description": "Just like shuttle passing but over the net. Players go on the court one by one receiving the ball and sending it over in one touch.",
+        "image": "https://thrivevolleyball.com/wp-content/uploads/2018/04/1v1-tennis-400x250.jpg"
+    },
+    {
+        "name": "Serve Relay",
+        "description": "Players split into to groups, they go against each other in a realy race. If the serve goes over the net and in, the player only runs half court and back. If the player misses the serve, they have to run the whole court. Add zones for intermediate or higher players.",
+        "image": "https://thrivevolleyball.com/wp-content/uploads/2019/05/serve-relay-1-400x250.jpg"
+    },
+    {
+        "name": "Pepper",
+        "description": "Pass-set-hit sequence. Players in pairs or can have variation, usually one touch.",
+        "image": ""
+    }
+]
